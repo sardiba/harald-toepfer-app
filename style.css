@@ -1,0 +1,43 @@
+:root {
+  --color-red: #ff0000;
+  --color-boston-university-red: #cc0000;
+  --color-cerulean-blue: #3b4cca;
+  --color-golden-yellow: #ffde00;
+  --color-gold-foil: #b3a125;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: system-ui;
+}
+
+main {
+  margin: auto;
+}
+
+h1,
+h2,
+dl {
+  margin: 0;
+}
+
+dt {
+  font-size: small;
+}
+
+.cards {
+  margin-top: 1rem;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 2px solid var(--color-boston-university-red);
+  padding: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
